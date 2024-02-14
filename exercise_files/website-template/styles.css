@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background: url(sunset.jpg) no-repeat;
+  background-size: cover;
+  font-family: system-ui, helvetica, arial, sans-serif;
+  height: 96vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #222;
+  margin: 2vh;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h1, h2 {
+  margin: 0;
+  font-family: 'Caveat', system-ui, helvetica, cursive;
+}
+a {
+  color: #222;
+}
+a:hover {
+  text-decoration: none;
+}
+.container {
+  width: 450px;
+  text-align: center;
+  padding: 50px 30px;
+  background: rgba(162, 92, 84,.8);
+  line-height: 1.25;
+  color: #222;
+}
